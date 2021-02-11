@@ -108,17 +108,19 @@ header h2 {
     }
 }
 
+/* Crop images first and try again */
+
 #destinations .box {
     padding: 5px;
     border: 1px solid hsl(0 0% 80%);
-    min-width: 200px;
+    min-width: 180px;
     max-width: 20%;
     max-height: 250px;
     overflow: hidden;
 }
 
 .destination img {
-    max-height: 250px;
+    max-height: 85%;
     object-fit: cover;
 }
 
