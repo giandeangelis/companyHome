@@ -3,22 +3,27 @@
 <html lang="en">
   <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="resources/reset.css" type="text/css" rel="stylesheet">
+    <link href="resources/styles.css" type="text/css" rel="stylesheet">
   </head>
 
   <body>
   <!--Navbar and company banner-->
     <header>
       <nav>
+        <img src="resources/images/logo.png" alt="easyjet logo">
         <ul>
-          <li>Home</li>
-          <li>Destinations</li>
-          <li>Our Promise</li>
-          <li>Our Team</li>
-          <li>About Us</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#promises">Our Promise</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#about">About Us</a></li>
         </ul>
       </nav>
-      <h1 class="easyjet">easyJet</h1>
-      <h2>Where to next?</h2>
+      <div class="text">
+        <h1 class="easyjet">easyJet</h1>
+        <h2>Where to next?</h2>
+      </div>
     </header>
 
     <main>
@@ -97,8 +102,8 @@
       </section>
     </main>
 
-    <footer>
-
+    <footer id="about">
+      <p>About us</p>
     </footer>
   </body>
 </html>
