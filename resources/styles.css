@@ -9,7 +9,7 @@
 html {
     font-size: 16px;
 }
-h1, h2, p, li {
+h1, h2, p, li, figcaption {
     font-family: Arial, Verdana, sans-serif;
     color: #000;     
 }
@@ -94,7 +94,33 @@ header h2 {
 }
 
 /* Destinations section */
+#destinations {
+    width: 80%;
+    padding: 30px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 
+@media all and (max-width: 1050px) {
+    #destinations {
+        flex-wrap: wrap;
+    }
+}
+
+#destinations .box {
+    padding: 5px;
+    border: 1px solid hsl(0 0% 80%);
+    min-width: 200px;
+    max-width: 20%;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.destination img {
+    max-height: 250px;
+    object-fit: cover;
+}
 
 /* Promise section */
 
