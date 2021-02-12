@@ -9,7 +9,7 @@
 html {
     font-size: 16px;
 }
-h1, h2, p, li, figcaption {
+h1, h2, h3, p, li, figcaption {
     font-family: Arial, Verdana, sans-serif;
     color: #000;     
 }
@@ -20,6 +20,10 @@ h1 {
 
 h2 {
     font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.4rem;
 }
 
 /* Header and Nav sections */
@@ -105,9 +109,9 @@ header h2 {
 
 #destinations .box {
     width: 20%;
-    min-width: 150px;
+    min-width: 160px;
     padding: 7px;
-    margin-top: 5%;
+    margin: 2.5% 0;
     border: 3px solid hsla(0 0% 80% 0.5);
     background: linear-gradient(90deg, rgba(255,86,31,1) 0%, rgba(255,103,30,1) 35%, rgba(255,125,28,1) 100%);
 }
@@ -131,8 +135,30 @@ header h2 {
 #promise-container {
     width: 80%;
     margin: 0 auto;
+    padding: 8% 0;
     display: flex;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.promise.box {
+    width: 18%;
+    min-width: 160px;
+    min-height: 160px;
+    text-align: center;
+    background-color: hsla(0, 100%, 100%, 0.2);
+    margin: 2.5% 0;
+}
+
+.promise h3 {
+    padding: 5%;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.promise p {
+    padding: 5%;
+    color: #FFF;
 }
 
 /* Team section */
