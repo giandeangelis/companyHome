@@ -142,9 +142,11 @@ header h2 {
     }
 
     nav ul {
+        height: 100%;
         display: none;
         flex-flow: column;
         align-items: center;
+        justify-content: space-around;
     }
 
     nav #hamburger {
@@ -154,6 +156,7 @@ header h2 {
     nav {
         width: 100%;
         left: 0;
+        flex-flow: row-reverse;
     }
 }
 
