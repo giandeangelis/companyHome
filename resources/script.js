@@ -1,3 +1,5 @@
+//Handle the opening of the nav menu on mobile version
+
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('navbar');
 const navItems = document.getElementById('nav-items');
