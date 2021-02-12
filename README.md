@@ -12,4 +12,7 @@ Practice HTML and CSS skills, specifically CSS Flexbox, to develop a landing pag
 - CSS3
 
 ## STATUS
-In development - early stages.
+In development
+- HTML structure completed
+- Initial CSS styling for desktop version completed
+- Styles for smaller devices still missing
