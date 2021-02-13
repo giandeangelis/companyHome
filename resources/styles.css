@@ -134,6 +134,7 @@ header h2 {
 /* Hamburger icon styles */
 #hamburger-container {
     margin: 5%;
+    display: none;
 }
 
 .bar1, .bar2, .bar3 {

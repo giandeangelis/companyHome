@@ -18,4 +18,4 @@ In development
 - HTML structure completed
 - Most of the CSS and responsive features completed
 - Footer intentionally blank
-- Nav menu for mobile still work in progress
+- Navbar implemented
