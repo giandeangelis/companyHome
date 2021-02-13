@@ -10,9 +10,11 @@ html {
     font-size: 16px;
 }
 
-html, body {
-    width: 100%;
-    overflow-x: hidden;
+@media screen and (max-width: 450px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 h1, h2, h3, p, li, figcaption {
@@ -264,11 +266,24 @@ header h2 {
     padding: 5%;
     text-transform: uppercase;
     color: #FFF;
+    font-weight: 700;
 }
 
 .promise p {
     padding: 5%;
     color: #FFF;
+}
+
+/* Promise section for mobile */
+@media screen and (max-width: 450px) {
+    #promise-container {
+        width: 100%;
+        flex-flow: column;
+    }
+
+    .promise.box {
+        width: 100%;
+    }
 }
 
 /* Team section */
