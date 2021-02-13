@@ -306,11 +306,11 @@ header h2 {
 
 .promise.box {
     width: 18%;
-    min-width: 160px;
+    min-width: 180px;
     min-height: 160px;
     text-align: center;
     background-color: hsla(0, 100%, 100%, 0.2);
-    margin: 2.5%;
+    margin: 1%;
 }
 
 .promise h3 {
@@ -334,6 +334,7 @@ header h2 {
 
     .promise.box {
         width: 100%;
+        margin: 2.5% 0;
     }
 }
 
