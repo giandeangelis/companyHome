@@ -14,8 +14,4 @@ None of the content of this project is intended to represent easyJet in any way.
 - CSS3
 
 ## STATUS
-In development
-- HTML structure completed
-- Most of the CSS and responsive features completed
-- Footer intentionally blank
-- Navbar implemented
+Initial version completed
