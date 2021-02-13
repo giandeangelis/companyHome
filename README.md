@@ -1,11 +1,13 @@
 # EASYJET COMPANY WEBSITE
-This is a HTML and CSS project for a fake easyJet company homepage.
+This is a HTML, CSS and JS project for a fake easyJet company homepage.
 
 ## DISCLAIMER
 None of the content of this project is intended to represent easyJet in any way. All images are free and available on the internet. I am not associated with easyJet in any way.
 
 ## OBJECTIVE
-Practice HTML and CSS skills, specifically CSS Flexbox, to develop a landing page for a company website.
+- Practice HTML and CSS skills, specifically CSS Flexbox, to develop a landing page for a company website.
+- Make a responsive website.
+- Implement basic Javascript features.
 
 ## TECHNOLOGIES
 - HTML5
@@ -14,5 +16,6 @@ Practice HTML and CSS skills, specifically CSS Flexbox, to develop a landing pag
 ## STATUS
 In development
 - HTML structure completed
-- Initial CSS styling for desktop version completed
-- Styles for smaller devices still missing
+- Most of the CSS and responsive features completed
+- Footer intentionally blank
+- Nav menu for mobile still work in progress
